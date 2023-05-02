@@ -1,0 +1,255 @@
+:root {
+    --primary-color: #FED001;
+}
+
+html {
+    /* font-size: 62.5%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; */
+    font: 400 62.5% 'Inter', sans-serif;
+}
+
+.section-title{
+    padding: 7rem 0;
+    text-align: center;
+    margin: 0;
+    
+   
+}
+
+.btn-section{
+    margin: 7rem;
+    
+}
+p,
+a {
+    font-size: 1.6rem;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+h3{
+    font-size: 3.2rem;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+
+.wrappercontainer-dark{
+background-color: #2a2a2a;
+color: #fafafa;
+
+}
+
+.wrapper{
+    margin-top: 1px;
+}
+.wrappercontainer-light{
+    background-color: #fafafa;
+}
+
+.wrappercontainer-dark2{
+    background-color: #002464;
+    color: #fafafa;
+}
+
+.wrapperContainer-dark {
+    background-color: #2a2a2a;
+    color: #fafafa;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.header-nav ul{
+    display: flex;
+    gap: .5rem;
+    list-style-type: none;
+    
+
+    
+}
+.wrappercontainer{
+    padding-top: 1px;
+}
+
+
+.header-nav a{
+    padding: .75em 1.15em;
+    border: solid 1px;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.header-nav a:hover{
+    background-color: black;
+}
+
+
+.herobanner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.wrapper{
+    background-image: linear-gradient(white, var(--primary-color));
+}
+
+.btn{
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    font-size: 2.4rem;
+    padding: 1.6rem;
+    text-decoration: none;
+    color: black;
+    display: inline-block
+}
+
+.hero-title{
+    margin-bottom: 5rem;
+}
+
+.cursos{
+    text-align: center;
+}
+
+.cursoscontainer{
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+    
+}
+.curso_card h3{
+    font-size: 2.4rem;
+    
+
+}
+
+.curso_card img{
+    display: block;
+    width: 100%;
+}
+.curso_card{
+    
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+    
+    
+}
+
+.curso_card p{
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+
+.curso-card-content{
+padding: 1rem;
+border-radius: 0 0 8px 8px;
+border-top: transparent;
+border: 1px solid #ccc;
+}
+.escola{
+    display: flex;
+    gap: 3px;
+    padding-top: 6rem;
+}
+
+.text-escola
+{
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+
+.escola p{
+    font-size: 1.8rem;
+    
+}
+
+.escola-content{
+    margin-left: 10rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0px;
+}
+
+iframe{
+    margin: 0;
+}
+
+footer{
+    
+}
+
+.contatos-address{
+    font-size: 3rem;
+  text-align: right;
+  margin-bottom: 10rem;
+  
+}
+
+.footer-end{
+    background-color: var(--primary-color);
+    
+    padding-top: 8rem;
+    color: #2a2a2a;
+    font-size: 2rem;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+    
+   
+   
+}
+
+
+
+.footer-end a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    list-style: none;
+    color: #2a2a2a;
+    margin-left: 8rem;
+    align-self: auto;
+    
+   
+
+
+}
+.footer-end p{
+          margin-left: 1rem;
+          margin-bottom: 3rem;
+}
+
+.footer-end span{
+    justify-content: center;
+    align-self: center;
+    margin-bottom: 1.3rem;
+    
+
+}
+.footer-end img{
+    margin-top: 1rem;
+   display: flex;
+   align-items: center;
+    margin-bottom: 3rem;
+    
+}
